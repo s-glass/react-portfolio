@@ -1,52 +1,33 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Ursula Lopez. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hola",
+      "description": "👋 Me llamo Sarah Glass. Estoy una estudiante de Code Fellows en ruta a una certificación de desarollo de software avanzado. Lo que vea ahora es una plantilla portafolio de Code Fellows para un proyecto de code 301.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Sobre Yo",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Odd Duck",
+        "startDate": "2023",
+        "description": "Aplicación de una página con selector interactivo de imágenes aleatorias y una gráfica llena de datos generados por el usuario.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/odd-duck/odd-duck-1.png",
+          "images/portfolio/odd-duck/odd-duck-2.png",
+          "images/portfolio/odd-duck/odd-duck-3.png"
         ],
-        "url": "",
+        "url": "https://github.com/s-glass/odd-duck",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-css-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,61 +36,89 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Salmon Cookies",
+        "startDate": "2023",
+        "description": "Aplicación de dos páginas que incluye una página de inicio y una página de ventas con una tabla de cálculos de ventas según la ubicación, la cantidad de clientes y la cantidad de artículos comprados por hora; los usuarios pueden ingresar datos para cálculos adicionales.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/salmon-cookies/salmon-cookies-1.png",
+          "images/portfolio/salmon-cookies/salmon-cookies-2.png",
+          "images/portfolio/salmon-cookies/salmon-cookies-3.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/s-glass/cookie-stand",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html-plain",
+            "name": "HTML"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css-plain",
+            "name": "CSS"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Memory Gamers",
+        "startDate": "2023",
+        "description": "Aplicación de tres páginas con un juego de combinación de tarjetas con personalización seleccionada por el usuario, local storage, persistencia atrá varias páginas, funciones de constructor y control JS de transiciones CSS. Construido junto con otros 4 compañeros de clase para un proyecto de grupo",
+        "images": [
+          "images/portfolio/memory-gamers/project-1.png",
+          "images/portfolio/memory-gamers/project-2.png",
+          "images/portfolio/memory-gamers/project-3.png",
+          "images/portfolio/memory-gamers/project-4.png"
+        ],
+        "url": "https://github.com/Memory-Gamers/memory-game",
+        "technologies": [
+          {
+            "class": "devicon-html-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Code Fellows",
+        "title": "Estudiante de Desarollo de Software",
+        "years": "01.2023 - presente",
         "mainTech": [
-          "Angular 8/9/10"
+          "JavaScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "HTML",
+          "CSS",
           "JavaScript",
+          "Chart.js",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "React"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Optimal",
+        "title": "Especialista de Marketing",
+        "years": "07.2019 - 10.2022",
         "mainTech": [
-          "Angular 7/8"
+          "Herramienta de marketing digital patentada"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Jira",
+          "Asana",
+          "Google Trends",
+          "Ahrefs",
+          "Trello",
+          "Chrome Dev Tools",
+          "Slack"
         ]
       }
     ]
